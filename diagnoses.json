@@ -1,0 +1,280 @@
+[
+  {
+    "condition": "Migraine",
+    "symptoms": ["headache", "throbbing", "temples", "sensitivity to light", "nausea", "vision changes"],
+    "related_conditions": ["hypertension", "depression", "anxiety"],
+    "consider_medications": ["beta blockers", "antidepressants", "triptans"]
+  },
+  {
+    "condition": "Tension Headache",
+    "symptoms": ["headache", "dull", "all over", "fatigue", "difficulty concentrating"],
+    "related_conditions": ["stress", "anxiety", "depression"],
+    "consider_medications": ["over-the-counter pain relievers", "muscle relaxants"]
+  },
+  {
+    "condition": "Cluster Headache",
+    "symptoms": ["headache", "severe", "one side", "eye tearing", "nasal congestion"],
+    "related_conditions": ["smoking", "alcohol use"],
+    "consider_medications": ["oxygen therapy", "triptans", "calcium channel blockers"]
+  },
+  {
+    "condition": "Acute Coronary Syndrome",
+    "symptoms": ["chest_pain", "squeezing", "central", "radiating to arm", "shortness_of_breath", "nausea", "sweating"],
+    "related_conditions": ["hypertension", "diabetes", "high cholesterol"],
+    "consider_medications": ["aspirin", "nitroglycerin", "beta blockers", "statins"]
+  },
+  {
+    "condition": "Stable Angina",
+    "symptoms": ["chest_pain", "predictable with exertion", "relieved by rest", "shortness_of_breath"],
+    "related_conditions": ["coronary artery disease", "hypertension", "diabetes"],
+    "consider_medications": ["nitrates", "beta blockers", "calcium channel blockers"]
+  },
+  {
+    "condition": "Gastroesophageal Reflux Disease (GERD)",
+    "symptoms": ["chest_pain", "burning", "upper abdomen", "worse after meals", "shortness_of_breath"],
+    "related_conditions": ["obesity", "hiatal hernia"],
+    "consider_medications": ["proton pump inhibitors", "H2 blockers", "antacids"]
+  },
+  {
+    "condition": "Peptic Ulcer Disease",
+    "symptoms": ["abdominal_pain", "burning", "upper abdomen", "worse with fasting", "nausea"],
+    "related_conditions": ["H. pylori infection", "NSAID use"],
+    "consider_medications": ["proton pump inhibitors", "antibiotics", "bismuth subsalicylate"]
+  },
+  {
+    "condition": "Irritable Bowel Syndrome",
+    "symptoms": ["abdominal_pain", "cramping", "lower abdomen", "diarrhea", "constipation"],
+    "related_conditions": ["anxiety", "depression"],
+    "consider_medications": ["antispasmodics", "laxatives", "antidiarrheal agents"]
+  },
+  {
+    "condition": "Appendicitis",
+    "symptoms": ["abdominal_pain", "sharp", "lower right quadrant", "nausea", "vomiting", "fever"],
+    "related_conditions": [],
+    "consider_medications": ["antibiotics", "pain relievers"]
+  },
+  {
+    "condition": "Asthma Exacerbation",
+    "symptoms": ["shortness_of_breath", "wheezing", "cough", "chest tightness"],
+    "related_conditions": ["allergies", "GERD"],
+    "consider_medications": ["inhaled corticosteroids", "beta-2 agonists", "leukotriene modifiers"]
+  },
+  {
+    "condition": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": ["shortness_of_breath", "cough", "productive", "fatigue", "wheezing"],
+    "related_conditions": ["smoking", "occupational exposures"],
+    "consider_medications": ["bronchodilators", "inhaled corticosteroids", "oxygen therapy"]
+  },
+  {
+    "condition": "Pneumonia",
+    "symptoms": ["shortness_of_breath", "cough", "productive", "fever", "chest_pain"],
+    "related_conditions": ["COPD", "immunosuppression"],
+    "consider_medications": ["antibiotics", "cough suppressants", "pain relievers"]
+  },
+  {
+    "condition": "Chronic Fatigue Syndrome",
+    "symptoms": ["fatigue", "persistent", "not improved by rest", "difficulty concentrating", "muscle pain"],
+    "related_conditions": ["depression", "anxiety", "fibromyalgia"],
+    "consider_medications": ["antidepressants", "pain relievers", "sleep aids"]
+  },
+  {
+    "condition": "Hypothyroidism",
+    "symptoms": ["fatigue", "weight gain", "cold intolerance", "constipation", "dry skin"],
+    "related_conditions": ["autoimmune disorders"],
+    "consider_medications": ["levothyroxine"]
+  },
+  {
+    "condition": "Anemia",
+    "symptoms": ["fatigue", "shortness_of_breath", "weakness", "dizziness", "pale skin"],
+    "related_conditions": ["chronic diseases", "nutritional deficiencies"],
+    "consider_medications": ["iron supplements", "vitamin B12", "folic acid"]
+  },
+  {
+    "condition": "Urinary Tract Infection",
+    "symptoms": ["frequent_urination", "burning sensation", "urgency", "lower abdominal pain"],
+    "related_conditions": ["kidney infection", "bladder infection"],
+    "consider_medications": ["antibiotics", "pain relievers"]
+  },
+  {
+    "condition": "Diabetes Mellitus",
+    "symptoms": ["frequent_urination", "excessive thirst", "unexplained weight loss", "fatigue", "blurred_vision"],
+    "related_conditions": ["obesity", "hypertension", "cardiovascular disease"],
+    "consider_medications": ["insulin", "metformin", "sulfonylureas"]
+  },
+  {
+    "condition": "Benign Prostatic Hyperplasia",
+    "symptoms": ["frequent_urination", "difficulty starting urination", "weak urine stream", "nocturia"],
+    "related_conditions": ["prostatitis", "prostate cancer"],
+    "consider_medications": ["alpha-blockers", "5-alpha reductase inhibitors"]
+  },
+  {
+    "condition": "Generalized Anxiety Disorder",
+    "symptoms": ["anxiety", "excessive worry", "restlessness", "difficulty concentrating", "sleep disturbances"],
+    "related_conditions": ["depression", "panic disorder"],
+    "consider_medications": ["SSRIs", "SNRIs", "benzodiazepines"]
+  },
+  {
+    "condition": "Major Depressive Disorder",
+    "symptoms": ["depressed mood", "loss of interest", "fatigue", "sleep disturbances", "difficulty concentrating"],
+    "related_conditions": ["anxiety disorders", "substance abuse"],
+    "consider_medications": ["SSRIs", "SNRIs", "atypical antidepressants"]
+  },
+  {
+    "condition": "Osteoarthritis",
+    "symptoms": ["joint_pain", "stiffness", "reduced range of motion", "swelling"],
+    "related_conditions": ["obesity", "previous joint injury"],
+    "consider_medications": ["NSAIDs", "acetaminophen", "topical analgesics"]
+  },
+  {
+    "condition": "Rheumatoid Arthritis",
+    "symptoms": ["joint_pain", "swelling", "morning stiffness", "fatigue", "low-grade fever"],
+    "related_conditions": ["osteoporosis", "cardiovascular disease"],
+    "consider_medications": ["DMARDs", "NSAIDs", "corticosteroids"]
+  },
+  {
+    "condition": "Fibromyalgia",
+    "symptoms": ["widespread pain", "fatigue", "sleep disturbances", "cognitive difficulties"],
+    "related_conditions": ["chronic fatigue syndrome", "depression"],
+    "consider_medications": ["pregabalin", "duloxetine", "milnacipran"]
+  },
+  {
+    "condition": "Atopic Dermatitis (Eczema)",
+    "symptoms": ["skin_rash", "itching", "dry skin", "redness", "skin thickening"],
+    "related_conditions": ["asthma", "hay fever"],
+    "consider_medications": ["topical corticosteroids", "topical calcineurin inhibitors", "antihistamines"]
+  },
+  {
+    "condition": "Psoriasis",
+    "symptoms": ["skin_rash", "red patches", "silvery scales", "itching", "joint pain"],
+    "related_conditions": ["psoriatic arthritis", "cardiovascular disease"],
+    "consider_medications": ["topical corticosteroids", "vitamin D analogues", "biologics"]
+  },
+  {
+    "condition": "Benign Paroxysmal Positional Vertigo",
+    "symptoms": ["dizziness", "vertigo", "nausea", "balance problems"],
+    "related_conditions": ["Meniere's disease", "vestibular neuritis"],
+    "consider_medications": ["antihistamines", "anticholinergics"]
+  },
+  {
+    "condition": "Meniere's Disease",
+    "symptoms": ["dizziness", "vertigo", "tinnitus", "hearing loss", "fullness in the ear"],
+    "related_conditions": ["vestibular migraine", "acoustic neuroma"],
+    "consider_medications": ["diuretics", "betahistine", "antihistamines"]
+  },
+  {
+    "condition": "Acute Bronchitis",
+    "symptoms": ["cough", "productive", "shortness_of_breath", "wheezing", "chest discomfort"],
+    "related_conditions": ["pneumonia", "sinusitis"],
+    "consider_medications": ["bronchodilators", "cough suppressants", "NSAIDs"]
+  },
+  {
+    "condition": "Gastroenteritis",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal_pain", "fever"],
+    "related_conditions": ["food poisoning", "viral infections"],
+    "consider_medications": ["antiemetics", "antidiarrheal agents", "oral rehydration solutions"]
+  },
+  {
+    "condition": "Lumbar Disc Herniation",
+    "symptoms": ["back_pain", "sciatica", "numbness", "weakness in legs"],
+    "related_conditions": ["degenerative disc disease", "spinal stenosis"],
+    "consider_medications": ["NSAIDs", "muscle relaxants", "gabapentin"]
+  },
+  {
+    "condition": "Insomnia",
+    "symptoms": ["difficulty_sleeping", "daytime fatigue", "mood changes", "difficulty concentrating"],
+    "related_conditions": ["depression", "anxiety", "sleep apnea"],
+    "consider_medications": ["melatonin", "benzodiazepines", "non-benzodiazepine hypnotics"]
+  },
+  {
+    "condition": "Hyperthyroidism",
+    "symptoms": ["weight_changes", "heat intolerance", "rapid heartbeat", "tremor", "anxiety"],
+    "related_conditions": ["Graves' disease", "thyroid nodules"],
+    "consider_medications": ["antithyroid medications", "beta blockers"]
+  },
+  {
+    "condition": "Glaucoma",
+    "symptoms": ["blurred_vision", "eye pain", "halos around lights", "loss of peripheral vision"],
+    "related_conditions": ["cataracts", "diabetes"],
+    "consider_medications": ["prostaglandin analogs", "beta blockers", "carbonic anhydrase inhibitors"]
+  },
+  {
+    "condition": "Panic Disorder",
+    "symptoms": ["panic attacks", "chest_pain", "shortness_of_breath", "dizziness", "fear of losing control"],
+    "related_conditions": ["agoraphobia", "generalized anxiety disorder"],
+    "consider_medications": ["SSRIs", "SNRIs", "benzodiazepines"]
+  },
+  {
+    "condition": "Irritable Bowel Syndrome",
+    "symptoms": ["abdominal_pain", "bloating", "constipation", "diarrhea", "changes in bowel habits"],
+    "related_conditions": ["fibromyalgia", "chronic fatigue syndrome"],
+    "consider_medications": ["antispasmodics", "laxatives", "antidiarrheal agents"]
+  },
+  {
+    "condition": "Alopecia Areata",
+    "symptoms": ["hair_loss", "patchy hair loss", "nail changes"],
+    "related_conditions": ["autoimmune disorders", "thyroid disorders"],
+    "consider_medications": ["topical corticosteroids", "minoxidil", "immunosuppressants"]
+  },
+  {
+    "condition": "Multiple Sclerosis",
+    "symptoms": ["muscle_weakness", "numbness", "tingling", "vision problems", "balance problems"],
+    "related_conditions": ["optic neuritis", "transverse myelitis"],
+    "consider_medications": ["interferon beta", "glatiramer acetate", "dimethyl fumarate"]
+  },
+  {
+    "condition": "Overactive Bladder",
+    "symptoms": ["frequent_urination", "urgency", "urge incontinence", "nocturia"],
+    "related_conditions": ["urinary tract infection", "enlarged prostate"],
+    "consider_medications": ["anticholinergics", "beta-3 agonists", "botulinum toxin"]
+  },
+  {
+    "condition": "Bipolar Disorder",
+    "symptoms": ["mood_swings", "manic episodes", "depressive episodes", "changes in energy levels"],
+    "related_conditions": ["anxiety disorders", "substance abuse"],
+    "consider_medications": ["mood stabilizers", "antipsychotics", "antidepressants"]
+  },
+  {
+    "condition": "Alzheimer's Disease",
+    "symptoms": ["memory_problems", "confusion", "difficulty with familiar tasks", "personality changes"],
+    "related_conditions": ["vascular dementia", "Lewy body dementia"],
+    "consider_medications": ["cholinesterase inhibitors", "memantine"]
+  },
+  {
+    "condition": "Lymphoma",
+    "symptoms": ["swollen_lymph_nodes", "fever", "night sweats", "weight loss", "fatigue"],
+    "related_conditions": ["leukemia", "HIV/AIDS"],
+    "consider_medications": ["chemotherapy", "immunotherapy", "targeted therapy"]
+  },
+  [
+    {
+      "condition": "General Malaise",
+      "symptoms": ["fatigue", "weakness", "discomfort"],
+      "related_conditions": ["viral infection", "chronic fatigue syndrome", "depression"],
+      "consider_medications": ["rest", "hydration", "over-the-counter pain relievers"]
+    },
+    {
+      "condition": "Unspecified Gastrointestinal Distress",
+      "symptoms": ["abdominal_pain", "nausea", "vomiting", "diarrhea", "constipation"],
+      "related_conditions": ["gastroenteritis", "food intolerance", "irritable bowel syndrome"],
+      "consider_medications": ["antacids", "anti-diarrheal medication", "probiotics"]
+    },
+    {
+      "condition": "Nonspecific Respiratory Symptoms",
+      "symptoms": ["cough", "shortness_of_breath", "chest_discomfort"],
+      "related_conditions": ["common cold", "allergies", "asthma"],
+      "consider_medications": ["cough suppressants", "antihistamines", "bronchodilators"]
+    },
+    {
+      "condition": "Generalized Pain Syndrome",
+      "symptoms": ["pain", "muscle_aches", "joint_pain"],
+      "related_conditions": ["fibromyalgia", "chronic pain syndrome", "polymyalgia rheumatica"],
+      "consider_medications": ["pain relievers", "anti-inflammatory drugs", "muscle relaxants"]
+    },
+    {
+      "condition": "Unspecified Skin Condition",
+      "symptoms": ["skin_rash", "itching", "skin_discoloration"],
+      "related_conditions": ["allergic reaction", "eczema", "fungal infection"],
+      "consider_medications": ["antihistamines", "topical corticosteroids", "moisturizers"]
+    }
+  ]
+]

@@ -1,0 +1,646 @@
+{
+  "headache": [
+    {
+      "text": "How would you describe the pain?",
+      "options": ["Throbbing", "Dull", "Sharp", "Pressure", "Burning"]
+    },
+    {
+      "text": "Where is the pain located?",
+      "options": ["Forehead", "Back of the head", "Temples", "All over", "One side only"]
+    },
+    {
+      "text": "Are there any accompanying symptoms?",
+      "options": ["Nausea", "Sensitivity to light", "Dizziness", "Vision changes", "None"]
+    },
+    {
+      "text": "How long have you had this headache?",
+      "options": ["Less than 4 hours", "4-24 hours", "1-3 days", "More than 3 days"]
+    },
+    {
+      "text": "Does anything make the headache worse?",
+      "options": ["Physical activity", "Bright lights", "Loud noises", "Certain foods", "Nothing specific"]
+    },
+    {
+      "text": "How often do you experience these headaches?",
+      "options": ["Daily", "Weekly", "Monthly", "Rarely"]
+    },
+    {
+      "text": "Does the headache interfere with your daily activities?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    }
+  ],
+  "chest_pain": [
+    {
+      "text": "How would you describe the chest pain?",
+      "options": ["Sharp", "Dull", "Burning", "Squeezing", "Pressure"]
+    },
+    {
+      "text": "Where exactly is the pain located?",
+      "options": ["Center of chest", "Left side of chest", "Right side of chest", "Upper chest", "Lower chest"]
+    },
+    {
+      "text": "Does the pain radiate to other areas?",
+      "options": ["Left arm", "Right arm", "Back", "Jaw", "No radiation"]
+    },
+    {
+      "text": "How long does the pain last?",
+      "options": ["Few seconds", "Few minutes", "30 minutes to an hour", "Several hours", "Constant"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Shortness of breath", "Nausea", "Sweating", "Dizziness", "None"]
+    },
+    {
+      "text": "Does the pain change with body position or breathing?",
+      "options": ["Worse when lying down", "Worse when breathing deeply", "Better when sitting up", "No change", "Varies"]
+    }
+  ],
+  "abdominal_pain": [
+    {
+      "text": "Where is the pain located?",
+      "options": ["Upper right", "Upper left", "Lower right", "Lower left", "Around navel"]
+    },
+    {
+      "text": "How would you describe the pain?",
+      "options": ["Sharp", "Dull", "Cramping", "Burning", "Intermittent"]
+    },
+    {
+      "text": "How severe is the pain on a scale of 1-10?",
+      "options": ["1-3 (Mild)", "4-6 (Moderate)", "7-8 (Severe)", "9-10 (Extreme)"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Nausea", "Vomiting", "Diarrhea", "Constipation", "Fever"]
+    },
+    {
+      "text": "Does anything make the pain better or worse?",
+      "options": ["Eating", "Fasting", "Certain positions", "Bowel movements", "Nothing specific"]
+    },
+    {
+      "text": "How long have you been experiencing this pain?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    }
+  ],
+  "shortness_of_breath": [
+    {
+      "text": "When do you experience shortness of breath?",
+      "options": ["At rest", "With mild exertion", "With strenuous activity", "Lying down", "All the time"]
+    },
+    {
+      "text": "How long have you had this symptom?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Chest pain", "Cough", "Fever", "Swelling in legs", "None"]
+    },
+    {
+      "text": "Do you have a history of any respiratory conditions?",
+      "options": ["Asthma", "COPD", "Sleep apnea", "None"]
+    },
+    {
+      "text": "Does anything improve your breathing?",
+      "options": ["Sitting up", "Using an inhaler", "Rest", "Cool air", "Nothing helps"]
+    },
+    {
+      "text": "Is your shortness of breath getting worse over time?",
+      "options": ["Yes, gradually", "Yes, rapidly", "No, it's stable", "It fluctuates"]
+    }
+  ],
+  "fatigue": [
+    {
+      "text": "How long have you been feeling fatigued?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "1-3 months", "More than 3 months"]
+    },
+    {
+      "text": "Is your fatigue constant or does it come and go?",
+      "options": ["Constant", "Comes and goes", "Worse in the morning", "Worse in the evening"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Muscle weakness", "Joint pain", "Difficulty concentrating", "Sleep problems", "None"]
+    },
+    {
+      "text": "Have you experienced any recent life changes or stressors?",
+      "options": ["Work-related stress", "Family issues", "Financial problems", "Health concerns", "No significant changes"]
+    },
+    {
+      "text": "How much does the fatigue affect your daily activities?",
+      "options": ["Slightly", "Moderately", "Significantly", "Unable to perform daily activities"]
+    },
+    {
+      "text": "Does rest improve your fatigue?",
+      "options": ["Yes, completely", "Yes, partially", "No improvement", "Makes it worse"]
+    }
+  ],
+  "fever": [
+    {
+      "text": "What is your current temperature?",
+      "options": ["Below 100°F", "100°F - 101°F", "101°F - 103°F", "Above 103°F"]
+    },
+    {
+      "text": "How long have you had the fever?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Chills", "Body aches", "Cough", "Sore throat", "Rash"]
+    },
+    {
+      "text": "Have you traveled recently or been exposed to any illnesses?",
+      "options": ["Recent travel", "Exposure to sick individuals", "No known exposures"]
+    },
+    {
+      "text": "How does the fever pattern look like?",
+      "options": ["Constant", "Comes and goes", "Higher in the evening", "No specific pattern"]
+    },
+    {
+      "text": "Have you taken any medication to reduce the fever?",
+      "options": ["Yes, with improvement", "Yes, without improvement", "No medication taken"]
+    }
+  ],
+  "joint_pain": [
+    {
+      "text": "Which joints are affected?",
+      "options": ["Knees", "Hips", "Shoulders", "Wrists", "Ankles", "Multiple joints"]
+    },
+    {
+      "text": "How long have you had joint pain?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Is the pain associated with any of the following?",
+      "options": ["Swelling", "Redness", "Warmth", "Stiffness", "None"]
+    },
+    {
+      "text": "Does the pain improve with movement or rest?",
+      "options": ["Improves with movement", "Improves with rest", "No change with either"]
+    },
+    {
+      "text": "Have you had any recent injuries or changes in activity?",
+      "options": ["Recent injury", "New exercise routine", "No recent changes"]
+    },
+    {
+      "text": "How severe is the joint pain on a scale of 1-10?",
+      "options": ["1-3 (Mild)", "4-6 (Moderate)", "7-8 (Severe)", "9-10 (Extreme)"]
+    }
+  ],
+  "skin_rash": [
+    {
+      "text": "Where is the rash located?",
+      "options": ["Face", "Chest", "Arms", "Legs", "All over"]
+    },
+    {
+      "text": "How would you describe the rash?",
+      "options": ["Red and flat", "Raised bumps", "Blisters", "Scaly", "Itchy"]
+    },
+    {
+      "text": "How long have you had the rash?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "Are there any other symptoms?",
+      "options": ["Fever", "Itching", "Pain", "Swelling", "None"]
+    },
+    {
+      "text": "Have you been exposed to any new substances recently?",
+      "options": ["New soap/detergent", "New medication", "New food", "Possible insect bite", "No known exposures"]
+    },
+    {
+      "text": "Does the rash change in appearance or severity?",
+      "options": ["Gets worse over time", "Comes and goes", "Stays the same", "Improves then worsens"]
+    }
+  ],
+  "dizziness": [
+    {
+      "text": "How would you describe your dizziness?",
+      "options": ["Lightheadedness", "Vertigo (spinning sensation)", "Unsteadiness", "Feeling of fainting"]
+    },
+    {
+      "text": "How long do the dizzy spells last?",
+      "options": ["Seconds", "Minutes", "Hours", "Constant"]
+    },
+    {
+      "text": "Are there any triggers for your dizziness?",
+      "options": ["Standing up quickly", "Head movements", "Certain positions", "No specific triggers"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Nausea", "Hearing changes", "Vision changes", "Headache", "None"]
+    },
+    {
+      "text": "Have you had any recent changes in medications?",
+      "options": ["Started new medication", "Changed dosage", "Stopped medication", "No recent changes"]
+    },
+    {
+      "text": "Does the dizziness affect your balance or ability to walk?",
+      "options": ["Yes, severely", "Yes, mildly", "No effect on balance", "Only when dizzy"]
+    }
+  ],
+  "cough": [
+    {
+      "text": "What type of cough do you have?",
+      "options": ["Dry", "Productive (with phlegm)", "Wheezing", "Barking"]
+    },
+    {
+      "text": "How long have you been coughing?",
+      "options": ["Less than a week", "1-2 weeks", "2-4 weeks", "More than 4 weeks"]
+    },
+    {
+      "text": "Are there any other symptoms?",
+      "options": ["Fever", "Shortness of breath", "Chest pain", "Sore throat", "None"]
+    },
+    {
+      "text": "Is your cough worse at any particular time?",
+      "options": ["Morning", "Night", "After eating", "During exercise", "No particular pattern"]
+    },
+    {
+      "text": "Have you been exposed to any irritants or allergens recently?",
+      "options": ["Smoke", "Dust", "Pollen", "Chemical fumes", "No known exposures"]
+    },
+    {
+      "text": "Does anything relieve your cough?",
+      "options": ["Over-the-counter medicine", "Drinking water", "Honey/tea", "Nothing helps"]
+    }
+  ],
+  "nausea": [
+    {
+      "text": "How long have you been experiencing nausea?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "Is the nausea constant or does it come and go?",
+      "options": ["Constant", "Comes and goes", "Only after eating", "Only in the morning"]
+    },
+    {
+      "text": "Are you experiencing any vomiting?",
+      "options": ["No vomiting", "Occasional vomiting", "Frequent vomiting", "Unable to keep anything down"]
+    },
+    {
+      "text": "Are there any associated symptoms?",
+      "options": ["Abdominal pain", "Diarrhea", "Fever", "Headache", "None"]
+    },
+    {
+      "text": "Have you eaten anything unusual or potentially contaminated recently?",
+      "options": ["Yes", "No", "Unsure"]
+    },
+    {
+      "text": "Does anything make the nausea better or worse?",
+      "options": ["Eating makes it worse", "Eating helps", "Certain smells trigger it", "Movement makes it worse", "No specific factors"]
+    }
+  ],
+  "back_pain": [
+    {
+      "text": "Where is the back pain located?",
+      "options": ["Upper back", "Middle back", "Lower back", "Entire back"]
+    },
+    {
+      "text": "How would you describe the pain?",
+      "options": ["Sharp", "Dull", "Burning", "Throbbing", "Stabbing"]
+    },
+    {
+      "text": "How long have you been experiencing this back pain?",
+      "options": ["Less than a week", "1-4 weeks", "1-3 months", "More than 3 months"]
+    },
+    {
+      "text": "Does the pain radiate to other areas?",
+      "options": ["Legs", "Buttocks", "Arms", "Chest", "No radiation"]
+    },
+    {
+      "text": "Is the pain worse at any particular time or with any activities?",
+      "options": ["Morning", "Night", "Sitting", "Standing", "No particular pattern"]
+    },
+    {
+      "text": "Have you had any recent injuries or changes in physical activity?",
+      "options": ["Recent injury", "New exercise routine", "Lifted heavy object", "No recent changes"]
+    },
+    {
+      "text": "Does anything relieve the pain?",
+      "options": ["Rest", "Heat", "Cold", "Over-the-counter pain medication", "Nothing helps"]
+    }
+  ],
+  "sore_throat": [
+    {
+      "text": "How long have you had the sore throat?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "How would you describe the pain?",
+      "options": ["Mild", "Moderate", "Severe", "Excruciating"]
+    },
+    {
+      "text": "Are there any other symptoms?",
+      "options": ["Fever", "Cough", "Runny nose", "Difficulty swallowing", "None"]
+    },
+    {
+      "text": "Have you been exposed to anyone with similar symptoms?",
+      "options": ["Yes", "No", "Unsure"]
+    },
+    {
+      "text": "Does your throat look red or swollen when you look in the mirror?",
+      "options": ["Yes", "No", "Unsure"]
+    },
+    {
+      "text": "Does anything relieve the sore throat?",
+      "options": ["Warm liquids", "Cold foods", "Throat lozenges", "Over-the-counter pain medication", "Nothing helps"]
+    }
+  ],
+  "difficulty_sleeping": [
+    {
+      "text": "What kind of sleep difficulty are you experiencing?",
+      "options": ["Trouble falling asleep", "Waking up frequently", "Waking up too early", "Unrefreshing sleep"]
+    },
+    {
+      "text": "How long have you been having sleep problems?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Are there any factors that you think might be contributing to your sleep problems?",
+      "options": ["Stress", "Caffeine", "Irregular sleep schedule", "Noise or light disturbances", "Unsure"]
+    },
+    {
+      "text": "Do you feel tired or sleepy during the day?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    },
+    {
+      "text": "Have you tried any sleep aids or remedies?",
+      "options": ["Over-the-counter sleep aids", "Prescription sleep medication", "Natural remedies", "No sleep aids tried"]
+    },
+    {
+      "text": "Do you have any other symptoms along with sleep difficulties?",
+      "options": ["Anxiety", "Depression", "Pain", "Breathing problems", "None"]
+    }
+  ],
+  "weight_changes": [
+    {
+      "text": "Have you experienced weight gain or weight loss?",
+      "options": ["Weight gain", "Weight loss", "Fluctuating weight"]
+    },
+    {
+      "text": "How much weight have you gained or lost?",
+      "options": ["Less than 5 lbs", "5-10 lbs", "10-20 lbs", "More than 20 lbs"]
+    },
+    {
+      "text": "Over what period of time has this weight change occurred?",
+      "options": ["Less than a month", "1-3 months", "3-6 months", "More than 6 months"]
+    },
+    {
+      "text": "Have you made any recent changes to your diet or exercise habits?",
+      "options": ["Changed diet", "Increased exercise", "Decreased exercise", "No significant changes"]
+    },
+    {
+      "text": "Are you experiencing any other symptoms along with the weight change?",
+      "options": ["Increased appetite", "Decreased appetite", "Fatigue", "Mood changes", "None"]
+    },
+    {
+      "text": "Have you started or stopped any medications recently?",
+      "options": ["Started new medication", "Stopped medication", "Changed medication dosage", "No medication changes"]
+    }
+  ],
+  "blurred_vision": [
+    {
+      "text": "Is the blurred vision in one eye or both eyes?",
+      "options": ["One eye", "Both eyes", "Alternating between eyes"]
+    },
+    {
+      "text": "How long have you been experiencing blurred vision?",
+      "options": ["Less than 24 hours", "1-3 days", "3-7 days", "More than a week"]
+    },
+    {
+      "text": "Is the blurred vision constant or does it come and go?",
+      "options": ["Constant", "Comes and goes", "Only when focusing on objects", "Worse at certain times of day"]
+    },
+    {
+      "text": "Are there any other vision changes or eye symptoms?",
+      "options": ["Eye pain", "Redness", "Sensitivity to light", "Seeing flashes or floaters", "None"]
+    },
+    {
+      "text": "Do you have any medical conditions that might affect your vision?",
+      "options": ["Diabetes", "High blood pressure", "Migraine headaches", "No known conditions"]
+    },
+    {
+      "text": "Have you had any recent head injuries or changes in medications?",
+      "options": ["Recent head injury", "Started new medication", "No recent changes"]
+    }
+  ],
+  "anxiety": [
+    {
+      "text": "How long have you been experiencing anxiety?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "How would you rate your anxiety level on a scale of 1-10?",
+      "options": ["1-3 (Mild)", "4-6 (Moderate)", "7-8 (Severe)", "9-10 (Extreme)"]
+    },
+    {
+      "text": "What physical symptoms do you experience with your anxiety?",
+      "options": ["Rapid heartbeat", "Sweating", "Trembling", "Shortness of breath", "None"]
+    },
+    {
+      "text": "Are there any specific triggers for your anxiety?",
+      "options": ["Social situations", "Work-related stress", "Health concerns", "Financial worries", "No specific triggers"]
+    },
+    {
+      "text": "How much does anxiety interfere with your daily activities?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    },
+    {
+      "text": "Have you tried any methods to manage your anxiety?",
+      "options": ["Medication", "Therapy", "Relaxation techniques", "Exercise", "No management attempts"]
+    }
+  ],
+  "constipation": [
+    {
+      "text": "How long have you been experiencing constipation?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "How often are you having bowel movements?",
+      "options": ["Less than once a week", "1-2 times a week", "3-4 times a week", "Almost daily"]
+    },
+    {
+      "text": "Are your stools hard or difficult to pass?",
+      "options": ["Yes, always", "Yes, sometimes", "No, normal consistency", "Varies"]
+    },
+    {
+      "text": "Do you experience any pain or discomfort with bowel movements?",
+      "options": ["No pain", "Mild discomfort", "Moderate pain", "Severe pain"]
+    },
+    {
+      "text": "Have you made any recent changes to your diet or fluid intake?",
+      "options": ["Decreased fiber intake", "Decreased fluid intake", "Increased dairy consumption", "No significant changes"]
+    },
+    {
+      "text": "Are you taking any medications that might cause constipation?",
+      "options": ["Pain medications", "Iron supplements", "Antacids", "No known constipating medications"]
+    },
+    {
+      "text": "Have you tried any remedies for your constipation?",
+      "options": ["Increased fiber intake", "Laxatives", "Stool softeners", "Increased water intake", "No remedies tried"]
+    }
+  ],
+  "hair_loss": [
+    {
+      "text": "Where are you experiencing hair loss?",
+      "options": ["Scalp", "Eyebrows", "Body hair", "Multiple areas"]
+    },
+    {
+      "text": "How would you describe the hair loss?",
+      "options": ["Gradual thinning", "Patchy hair loss", "Sudden loss of large clumps", "Receding hairline"]
+    },
+    {
+      "text": "How long have you been noticing hair loss?",
+      "options": ["Less than a month", "1-3 months", "3-6 months", "More than 6 months"]
+    },
+    {
+      "text": "Have you experienced any recent stressful events or illnesses?",
+      "options": ["Major life stress", "Recent surgery", "Severe illness", "No significant events"]
+    },
+    {
+      "text": "Is there a family history of hair loss?",
+      "options": ["Yes, in male relatives", "Yes, in female relatives", "No family history", "Unsure"]
+    },
+    {
+      "text": "Have you noticed any scalp symptoms along with hair loss?",
+      "options": ["Itching", "Redness", "Scaling", "Pain", "No scalp symptoms"]
+    }
+  ],
+  "muscle_weakness": [
+    {
+      "text": "Which areas of your body are experiencing muscle weakness?",
+      "options": ["Arms", "Legs", "Both arms and legs", "Entire body"]
+    },
+    {
+      "text": "How long have you been experiencing muscle weakness?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Is the weakness constant or does it come and go?",
+      "options": ["Constant", "Comes and goes", "Worse with activity", "Worse with rest"]
+    },
+    {
+      "text": "Are there any other symptoms accompanying the weakness?",
+      "options": ["Pain", "Numbness or tingling", "Fatigue", "Difficulty with coordination", "None"]
+    },
+    {
+      "text": "Have you had any recent injuries or illnesses?",
+      "options": ["Recent injury", "Recent viral illness", "No recent events"]
+    },
+    {
+      "text": "Does the weakness affect your ability to perform daily activities?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    }
+  ],
+  "frequent_urination": [
+    {
+      "text": "How often are you urinating during the day?",
+      "options": ["Every 1-2 hours", "Every 2-3 hours", "Every 3-4 hours", "More than 4 hours apart"]
+    },
+    {
+      "text": "Do you wake up at night to urinate?",
+      "options": ["No", "Once per night", "2-3 times per night", "More than 3 times per night"]
+    },
+    {
+      "text": "How long have you been experiencing frequent urination?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Have you noticed any changes in the amount of urine?",
+      "options": ["Increased volume", "Decreased volume", "No change in volume"]
+    },
+    {
+      "text": "Are you experiencing any pain or burning with urination?",
+      "options": ["Yes", "No", "Occasionally"]
+    },
+    {
+      "text": "Have you increased your fluid intake recently?",
+      "options": ["Yes, significantly", "Yes, slightly", "No change in fluid intake"]
+    },
+    {
+      "text": "Do you have any known medical conditions that might affect urination?",
+      "options": ["Diabetes", "Enlarged prostate", "Urinary tract infection", "No known conditions"]
+    }
+  ],
+  "mood_swings": [
+    {
+      "text": "How long have you been experiencing mood swings?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "How frequently do you experience these mood swings?",
+      "options": ["Multiple times a day", "Daily", "A few times a week", "Weekly"]
+    },
+    {
+      "text": "How would you describe your mood swings?",
+      "options": ["Between happy and sad", "Between calm and angry", "Between energetic and lethargic", "Unpredictable"]
+    },
+    {
+      "text": "Are there any triggers for your mood swings?",
+      "options": ["Stress", "Hormonal changes", "Lack of sleep", "Certain situations", "No clear triggers"]
+    },
+    {
+      "text": "Do your mood swings interfere with your daily life or relationships?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    },
+    {
+      "text": "Have you experienced any recent life changes or stressors?",
+      "options": ["Major life event", "Work-related stress", "Relationship issues", "Health concerns", "No significant changes"]
+    }
+  ],
+  "memory_problems": [
+    {
+      "text": "What type of memory problems are you experiencing?",
+      "options": ["Forgetting recent events", "Difficulty recalling names", "Misplacing items", "Trouble concentrating"]
+    },
+    {
+      "text": "How long have you been noticing these memory issues?",
+      "options": ["A few days", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Are the memory problems constant or do they come and go?",
+      "options": ["Constant", "Come and go", "Worse at certain times of day", "Worsen with stress"]
+    },
+    {
+      "text": "Have others noticed your memory problems?",
+      "options": ["Yes", "No", "Unsure"]
+    },
+    {
+      "text": "Are you experiencing any other cognitive symptoms?",
+      "options": ["Difficulty with problem-solving", "Language problems", "Disorientation", "None"]
+    },
+    {
+      "text": "Have you experienced any recent head injuries or major life stressors?",
+      "options": ["Recent head injury", "Major life stress", "No recent events"]
+    },
+    {
+      "text": "Do the memory problems interfere with your daily activities?",
+      "options": ["Not at all", "Slightly", "Moderately", "Severely"]
+    }
+  ],
+  "swollen_lymph_nodes": [
+    {
+      "text": "Where are the swollen lymph nodes located?",
+      "options": ["Neck", "Armpits", "Groin", "Multiple areas"]
+    },
+    {
+      "text": "How long have you noticed the swollen lymph nodes?",
+      "options": ["Less than a week", "1-2 weeks", "2-4 weeks", "More than a month"]
+    },
+    {
+      "text": "Are the swollen nodes painful?",
+      "options": ["Yes, very painful", "Slightly tender", "No pain"]
+    },
+    {
+      "text": "Have you been experiencing any other symptoms?",
+      "options": ["Fever", "Fatigue", "Night sweats", "Weight loss", "No other symptoms"]
+    },
+    {
+      "text": "Have you had any recent infections or illnesses?",
+      "options": ["Recent cold or flu", "Skin infection", "Dental problem", "No recent illnesses"]
+    },
+    {
+      "text": "Are the lymph nodes getting larger, smaller, or staying the same size?",
+      "options": ["Getting larger", "Getting smaller", "Staying the same size", "Fluctuating in size"]
+    }
+  ]
+}

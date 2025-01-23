@@ -1,0 +1,224 @@
+{
+  "meals": [
+    {
+      "name": "Breakfast",
+      "meal": "Scrambled eggs with spinach and whole grain toast",
+      "calories": 350,
+      "protein": 20,
+      "carbs": 30,
+      "fat": 20,
+      "category": ["weight_loss", "maintain_weight", "weight_gain", "balanced", "high_protein"],
+      "dietary_restrictions": [],
+      "ingredients": ["eggs", "spinach", "whole grain bread", "olive oil"]
+    },
+    {
+      "name": "Breakfast",
+      "meal": "Greek yogurt with berries and almonds",
+      "calories": 300,
+      "protein": 20,
+      "carbs": 25,
+      "fat": 15,
+      "category": ["weight_loss", "maintain_weight", "balanced", "low_carb", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "gluten-free"],
+      "ingredients": ["Greek yogurt", "mixed berries", "almonds"]
+    },
+    {
+      "name": "Breakfast",
+      "meal": "Protein smoothie with banana and peanut butter",
+      "calories": 400,
+      "protein": 30,
+      "carbs": 40,
+      "fat": 15,
+      "category": ["weight_gain", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "gluten-free"],
+      "ingredients": ["protein powder", "banana", "peanut butter", "milk"]
+    },
+    {
+      "name": "Breakfast",
+      "meal": "Avocado and smoked salmon on low-carb bread",
+      "calories": 350,
+      "protein": 20,
+      "carbs": 15,
+      "fat": 25,
+      "category": ["weight_loss", "maintain_weight", "low_carb", "high_protein"],
+      "dietary_restrictions": [],
+      "ingredients": ["avocado", "smoked salmon", "low-carb bread"]
+    },
+    {
+      "name": "Breakfast",
+      "meal": "Vegan tofu scramble with vegetables",
+      "calories": 300,
+      "protein": 20,
+      "carbs": 20,
+      "fat": 18,
+      "category": ["weight_loss", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["tofu", "bell peppers", "onions", "spinach", "nutritional yeast"]
+    },
+    {
+      "name": "Lunch",
+      "meal": "Grilled chicken salad with mixed greens and vinaigrette",
+      "calories": 400,
+      "protein": 35,
+      "carbs": 15,
+      "fat": 25,
+      "category": ["weight_loss", "maintain_weight", "weight_gain", "low_carb", "high_protein"],
+      "dietary_restrictions": ["gluten-free"],
+      "ingredients": ["chicken breast", "mixed greens", "olive oil", "vinegar"]
+    },
+    {
+      "name": "Lunch",
+      "meal": "Tuna wrap with whole wheat tortilla and vegetables",
+      "calories": 450,
+      "protein": 30,
+      "carbs": 45,
+      "fat": 20,
+      "category": ["weight_loss", "maintain_weight", "weight_gain", "balanced"],
+      "dietary_restrictions": [],
+      "ingredients": ["canned tuna", "whole wheat tortilla", "lettuce", "tomato", "cucumber"]
+    },
+    {
+      "name": "Lunch",
+      "meal": "Quinoa bowl with roasted vegetables and chickpeas",
+      "calories": 500,
+      "protein": 20,
+      "carbs": 70,
+      "fat": 15,
+      "category": ["weight_gain", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["quinoa", "mixed vegetables", "chickpeas", "olive oil"]
+    },
+    {
+      "name": "Lunch",
+      "meal": "Keto-friendly bacon and cheese quiche",
+      "calories": 550,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 45,
+      "category": ["weight_gain", "maintain_weight", "low_carb", "high_protein"],
+      "dietary_restrictions": ["gluten-free"],
+      "ingredients": ["eggs", "heavy cream", "bacon", "cheese", "spinach"]
+    },
+    {
+      "name": "Lunch",
+      "meal": "Vegan lentil soup with whole grain bread",
+      "calories": 400,
+      "protein": 20,
+      "carbs": 60,
+      "fat": 10,
+      "category": ["weight_loss", "maintain_weight", "balanced"],
+      "dietary_restrictions": ["vegetarian", "vegan"],
+      "ingredients": ["lentils", "vegetables", "whole grain bread"]
+    },
+    {
+      "name": "Dinner",
+      "meal": "Baked salmon with roasted vegetables and brown rice",
+      "calories": 550,
+      "protein": 40,
+      "carbs": 50,
+      "fat": 25,
+      "category": ["weight_gain", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": ["gluten-free"],
+      "ingredients": ["salmon fillet", "broccoli", "carrots", "brown rice", "olive oil"]
+    },
+    {
+      "name": "Dinner",
+      "meal": "Lean beef stir-fry with mixed vegetables",
+      "calories": 500,
+      "protein": 35,
+      "carbs": 40,
+      "fat": 20,
+      "category": ["weight_loss", "maintain_weight", "weight_gain", "balanced", "high_protein"],
+      "dietary_restrictions": ["gluten-free"],
+      "ingredients": ["lean beef", "mixed vegetables", "soy sauce", "olive oil"]
+    },
+    {
+      "name": "Dinner",
+      "meal": "Grilled tofu with quinoa and steamed broccoli",
+      "calories": 400,
+      "protein": 25,
+      "carbs": 45,
+      "fat": 20,
+      "category": ["weight_loss", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["tofu", "quinoa", "broccoli", "olive oil"]
+    },
+    {
+      "name": "Dinner",
+      "meal": "Keto chicken alfredo with zucchini noodles",
+      "calories": 600,
+      "protein": 40,
+      "carbs": 10,
+      "fat": 45,
+      "category": ["weight_gain", "maintain_weight", "low_carb", "high_protein"],
+      "dietary_restrictions": ["gluten-free"],
+      "ingredients": ["chicken breast", "heavy cream", "parmesan cheese", "zucchini"]
+    },
+    {
+      "name": "Dinner",
+      "meal": "Vegetarian chili with mixed beans and vegetables",
+      "calories": 450,
+      "protein": 20,
+      "carbs": 70,
+      "fat": 10,
+      "category": ["weight_loss", "maintain_weight", "balanced"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["mixed beans", "tomatoes", "bell peppers", "onions", "spices"]
+    },
+    {
+      "name": "Snack",
+      "meal": "Apple slices with almond butter",
+      "calories": 200,
+      "protein": 5,
+      "carbs": 20,
+      "fat": 10,
+      "category": ["weight_loss", "maintain_weight", "weight_gain", "balanced", "low_carb"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["apple", "almond butter"]
+    },
+    {
+      "name": "Snack",
+      "meal": "Protein bar",
+      "calories": 250,
+      "protein": 20,
+      "carbs": 25,
+      "fat": 8,
+      "category": ["weight_gain", "maintain_weight", "balanced", "high_protein"],
+      "dietary_restrictions": [],
+      "ingredients": ["protein bar"]
+    },
+    {
+      "name": "Snack",
+      "meal": "Mixed nuts and dried fruits",
+      "calories": 300,
+      "protein": 10,
+      "carbs": 20,
+      "fat": 25,
+      "category": ["weight_gain", "maintain_weight", "balanced", "low_carb"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["mixed nuts", "dried fruits"]
+    },
+    {
+      "name": "Snack",
+      "meal": "Greek yogurt with honey and walnuts",
+      "calories": 250,
+      "protein": 15,
+      "carbs": 20,
+      "fat": 15,
+      "category": ["maintain_weight", "weight_gain", "balanced", "high_protein"],
+      "dietary_restrictions": ["vegetarian", "gluten-free"],
+      "ingredients": ["Greek yogurt", "honey", "walnuts"]
+    },
+    {
+      "name": "Snack",
+      "meal": "Celery sticks with peanut butter",
+      "calories": 200,
+      "protein": 8,
+      "carbs": 10,
+      "fat": 16,
+      "category": ["weight_loss", "maintain_weight", "low_carb"],
+      "dietary_restrictions": ["vegetarian", "vegan", "gluten-free"],
+      "ingredients": ["celery", "peanut butter"]
+    }
+  ]
+}

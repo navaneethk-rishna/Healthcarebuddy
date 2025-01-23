@@ -1,0 +1,126 @@
+{
+    "diseases": {
+      "hypertension": {
+        "name": "Hypertension",
+        "description": "High blood pressure that can lead to severe health complications",
+        "common_medications": ["lisinopril", "amlodipine", "hydrochlorothiazide", "losartan", "metoprolol"],
+        "related_conditions": ["heart disease", "stroke", "kidney disease", "diabetes"]
+      },
+      "type_2_diabetes": {
+        "name": "Type 2 Diabetes",
+        "description": "A chronic condition that affects the way your body metabolizes sugar (glucose)",
+        "common_medications": ["metformin", "gliclazide", "sitagliptin", "empagliflozin", "insulin"],
+        "related_conditions": ["obesity", "heart disease", "kidney disease", "neuropathy"]
+      },
+      "asthma": {
+        "name": "Asthma",
+        "description": "A condition in which airways narrow and swell and produce extra mucus",
+        "common_medications": ["albuterol", "fluticasone", "montelukast", "budesonide", "formoterol"],
+        "related_conditions": ["allergies", "sinusitis", "sleep apnea", "GERD"]
+      },
+      "rheumatoid_arthritis": {
+        "name": "Rheumatoid Arthritis",
+        "description": "An autoimmune disorder that causes inflammation of the joints",
+        "common_medications": ["methotrexate", "hydroxychloroquine", "sulfasalazine", "leflunomide", "adalimumab"],
+        "related_conditions": ["osteoporosis", "cardiovascular disease", "lung disease", "depression"]
+      },
+      "hypothyroidism": {
+        "name": "Hypothyroidism",
+        "description": "A condition in which the thyroid gland doesn't produce enough thyroid hormone",
+        "common_medications": ["levothyroxine", "liothyronine"],
+        "related_conditions": ["goiter", "heart problems", "depression", "peripheral neuropathy"]
+      },
+      "depression": {
+        "name": "Depression",
+        "description": "A mental health disorder characterized by persistently depressed mood or loss of interest in activities",
+        "common_medications": ["sertraline", "fluoxetine", "escitalopram", "venlafaxine", "bupropion"],
+        "related_conditions": ["anxiety", "insomnia", "chronic pain", "substance abuse"]
+      },
+      "gerd": {
+        "name": "Gastroesophageal Reflux Disease (GERD)",
+        "description": "A digestive disorder that affects the lower esophageal sphincter",
+        "common_medications": ["omeprazole", "esomeprazole", "ranitidine", "famotidine", "pantoprazole"],
+        "related_conditions": ["Barrett's esophagus", "esophagitis", "asthma", "chronic cough"]
+      },
+      "osteoporosis": {
+        "name": "Osteoporosis",
+        "description": "A condition that causes bones to become weak and brittle",
+        "common_medications": ["alendronate", "risedronate", "zoledronic acid", "denosumab", "teriparatide"],
+        "related_conditions": ["fractures", "kyphosis", "loss of height", "back pain"]
+      },
+      "migraine": {
+        "name": "Migraine",
+        "description": "A headache of varying intensity, often accompanied by nausea and sensitivity to light and sound",
+        "common_medications": ["sumatriptan", "rizatriptan", "propranolol", "topiramate", "amitriptyline"],
+        "related_conditions": ["depression", "anxiety", "sleep disorders", "stroke"]
+      },
+      "psoriasis": {
+        "name": "Psoriasis",
+        "description": "A condition that causes red, itchy scaly patches on the skin",
+        "common_medications": ["methotrexate", "adalimumab", "ustekinumab", "secukinumab", "apremilast"],
+        "related_conditions": ["psoriatic arthritis", "cardiovascular disease", "type 2 diabetes", "depression"]
+      }
+    },
+    "medications": {
+      "lisinopril": {
+        "name": "Lisinopril",
+        "description": "ACE inhibitor used to treat high blood pressure and heart failure",
+        "treats": ["hypertension", "heart failure"],
+        "side_effects": ["dizziness", "cough", "headache", "high potassium levels"]
+      },
+      "metformin": {
+        "name": "Metformin",
+        "description": "Oral medication used to treat type 2 diabetes",
+        "treats": ["type_2_diabetes"],
+        "side_effects": ["nausea", "diarrhea", "stomach pain", "vitamin B12 deficiency"]
+      },
+      "albuterol": {
+        "name": "Albuterol",
+        "description": "Bronchodilator that relaxes muscles in the airways and increases air flow to the lungs",
+        "treats": ["asthma", "chronic obstructive pulmonary disease (COPD)"],
+        "side_effects": ["nervousness", "shaking", "headache", "fast heart rate"]
+      },
+      "levothyroxine": {
+        "name": "Levothyroxine",
+        "description": "Synthetic thyroid hormone used to treat hypothyroidism",
+        "treats": ["hypothyroidism"],
+        "side_effects": ["weight loss", "tremors", "headache", "insomnia"]
+      },
+      "sertraline": {
+        "name": "Sertraline",
+        "description": "Selective serotonin reuptake inhibitor (SSRI) used to treat depression, anxiety, and other mental health conditions",
+        "treats": ["depression", "anxiety", "obsessive-compulsive disorder"],
+        "side_effects": ["nausea", "diarrhea", "sexual problems", "insomnia"]
+      },
+      "omeprazole": {
+        "name": "Omeprazole",
+        "description": "Proton pump inhibitor that decreases stomach acid production",
+        "treats": ["gerd", "peptic ulcer disease", "Zollinger-Ellison syndrome"],
+        "side_effects": ["headache", "abdominal pain", "nausea", "vitamin B12 deficiency"]
+      },
+      "alendronate": {
+        "name": "Alendronate",
+        "description": "Bisphosphonate used to treat osteoporosis and Paget's disease of bone",
+        "treats": ["osteoporosis", "Paget's disease"],
+        "side_effects": ["heartburn", "stomach pain", "nausea", "jaw problems"]
+      },
+      "sumatriptan": {
+        "name": "Sumatriptan",
+        "description": "Triptan medication used to treat migraine headaches",
+        "treats": ["migraine"],
+        "side_effects": ["tingling", "dizziness", "warm/cold sensations", "chest tightness"]
+      },
+      "adalimumab": {
+        "name": "Adalimumab",
+        "description": "Tumor necrosis factor (TNF) blocker used to treat various autoimmune diseases",
+        "treats": ["rheumatoid_arthritis", "psoriasis", "Crohn's disease", "ulcerative colitis"],
+        "side_effects": ["injection site reactions", "upper respiratory infections", "headache", "rash"]
+      },
+      "fluoxetine": {
+        "name": "Fluoxetine",
+        "description": "Selective serotonin reuptake inhibitor (SSRI) used to treat depression, OCD, and other mental health conditions",
+        "treats": ["depression", "obsessive-compulsive disorder", "bulimia nervosa"],
+        "side_effects": ["nausea", "insomnia", "headache", "anxiety"]
+      }
+    }
+  }
